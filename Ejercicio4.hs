@@ -1,3 +1,3 @@
 sumaImpares :: Int -> Int
-sumaImpares n | n <= 0 = 0
-sumaImpares n = n * n
+sumaImpares n | n == 0 = 0
+              | n > 0 = n * n

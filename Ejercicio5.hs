@@ -1,2 +1,4 @@
 medioFact :: Int -> Int
-medioFact 
+medioFact n 
+        | n == 0 = 1
+        | n > 0 = n * (n-2)
