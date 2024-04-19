@@ -1,0 +1,2 @@
+medioFact :: Int -> Int
+medioFact 
